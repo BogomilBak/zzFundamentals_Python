@@ -1,0 +1,5 @@
+input_line = input().split(", ")
+sorted_x = sorted(input_line, key=lambda x: (-len(x), x))
+sortt = input_line.sort()
+print(sorted_x)
+print(sortt)
